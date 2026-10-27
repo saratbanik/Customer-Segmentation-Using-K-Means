@@ -1,0 +1,16 @@
+CUSTOMER SEGMENTATION USING K-MEANS — START HERE
+
+1. Open this folder in VS Code.
+2. Create a virtual environment:
+   py -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+3. Install dependencies:
+   pip install -r requirements.txt
+4. Train the model and generate charts:
+   python train_model.py
+5. Launch the app:
+   streamlit run app.py
+6. Optional CLI example (after training):
+   python predict_segment.py --income 60 --spending-score 50
+
+Dataset note: the provided dataset contains annual income and spending score, not raw purchase transactions. The clustering model uses those two features only.

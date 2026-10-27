@@ -1,0 +1,113 @@
+{
+  "dataset_file": "Mall_Customers.csv",
+  "customer_rows": 200,
+  "columns": [
+    "CustomerID",
+    "Gender",
+    "Age",
+    "Annual Income (k$)",
+    "Spending Score (1-100)"
+  ],
+  "features_used_for_clustering": [
+    "Annual Income (k$)",
+    "Spending Score (1-100)"
+  ],
+  "features_not_used_for_clustering": [
+    "Gender",
+    "Age",
+    "CustomerID"
+  ],
+  "missing_values_in_clustering_features": 0,
+  "duplicate_customer_ids": 0,
+  "selected_k": 5,
+  "silhouette_score": 0.5546571631111091,
+  "inertia": 65.56840815571681,
+  "random_state": 42,
+  "k_search": [
+    {
+      "k": 2,
+      "inertia": 269.6910121927639,
+      "silhouette_score": 0.3212707813918878
+    },
+    {
+      "k": 3,
+      "inertia": 157.70400815035947,
+      "silhouette_score": 0.46658474419000145
+    },
+    {
+      "k": 4,
+      "inertia": 108.92131661364355,
+      "silhouette_score": 0.4939069237513199
+    },
+    {
+      "k": 5,
+      "inertia": 65.56840815571681,
+      "silhouette_score": 0.5546571631111091
+    },
+    {
+      "k": 6,
+      "inertia": 55.057348270385994,
+      "silhouette_score": 0.5398800926790663
+    },
+    {
+      "k": 7,
+      "inertia": 44.86475569922557,
+      "silhouette_score": 0.5281492781108291
+    },
+    {
+      "k": 8,
+      "inertia": 37.14811697229111,
+      "silhouette_score": 0.4567208019716266
+    },
+    {
+      "k": 9,
+      "inertia": 32.39226763033116,
+      "silhouette_score": 0.4570853966942764
+    },
+    {
+      "k": 10,
+      "inertia": 29.685787841036316,
+      "silhouette_score": 0.43621223292728883
+    }
+  ],
+  "segment_counts": {
+    "Mid-range, moderate-spending": 81,
+    "High-income, high-spending": 39,
+    "High-income, low-spending": 35,
+    "Lower-income, low-spending": 23,
+    "Lower-income, high-spending": 22
+  },
+  "segment_centers": [
+    {
+      "Cluster": 0,
+      "Segment": "Mid-range, moderate-spending",
+      "Annual Income (k$)": 55.3,
+      "Spending Score (1-100)": 49.52
+    },
+    {
+      "Cluster": 1,
+      "Segment": "High-income, high-spending",
+      "Annual Income (k$)": 86.54,
+      "Spending Score (1-100)": 82.13
+    },
+    {
+      "Cluster": 2,
+      "Segment": "Lower-income, high-spending",
+      "Annual Income (k$)": 25.73,
+      "Spending Score (1-100)": 79.36
+    },
+    {
+      "Cluster": 3,
+      "Segment": "High-income, low-spending",
+      "Annual Income (k$)": 88.2,
+      "Spending Score (1-100)": 17.11
+    },
+    {
+      "Cluster": 4,
+      "Segment": "Lower-income, low-spending",
+      "Annual Income (k$)": 26.3,
+      "Spending Score (1-100)": 20.91
+    }
+  ],
+  "note": "K-means clusters annual income and spending score after standardization. Gender, age, and CustomerID are retained for descriptive profiling only."
+}

@@ -1,0 +1,6 @@
+Cluster,Segment,Customer_Count,Average_Age,Female_Percent,Average_Income_kUSD,Average_Spending_Score
+0,"Mid-range, moderate-spending",81,42.7,59.3,55.3,49.52
+1,"High-income, high-spending",39,32.7,53.8,86.54,82.13
+2,"Lower-income, high-spending",22,25.3,59.1,25.73,79.36
+3,"High-income, low-spending",35,41.1,45.7,88.2,17.11
+4,"Lower-income, low-spending",23,45.2,60.9,26.3,20.91
