@@ -184,12 +184,8 @@ The project selects k by maximum silhouette score from the tested values, not by
 
 This is a small educational dataset. It does not contain detailed basket-level transactions, product categories, purchase dates, or actual customer lifetime value. A real retail project could add RFM features (recency, frequency, monetary value), product-category preferences, and business validation. Cluster labels are descriptive, not verified customer personas.
 
-## Author
+<div align="center">
 
-Developed by **Sarat Banik**.
+**Developed by [SARAT BANIK](https://www.linkedin.com/in/saratbanik)**
 
-[LinkedIn](https://www.linkedin.com/in/saratbanik) · [GitHub](https://github.com/saratbanik)
-
-## License
-
-Add a license only if you are ready to specify the terms under which others may use, modify, and distribute this code. Check the dataset's own terms before redistributing data separately.
+</div>
